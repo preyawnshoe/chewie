@@ -354,8 +354,8 @@ class _MaterialControlsState extends State<MaterialControls>
         }
       },
       child: CenterPlayButton(
-        backgroundColor: Colors.black54,
-        iconColor: Colors.white,
+        backgroundColor: Colors.white.withOpacity(0.84),
+        iconColor: Color(0xFF6358E1),
         isFinished: isFinished,
         isPlaying: controller.value.isPlaying,
         show: !_dragging && !notifier.hideStuff,
